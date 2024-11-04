@@ -57,7 +57,7 @@ def check_new_ad():
     # Initialize the Selenium WebDriver
     options = webdriver.ChromeOptions()
     options.add_argument("--disable-search-engine-choice-screen")
-    options.add_argument("--headless")
+    #options.add_argument("--headless")
     prefs = {
         "profile.default_content_setting_values.cookies": 2,
         "profile.block_third_party_cookies": True
